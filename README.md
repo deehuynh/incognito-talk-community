@@ -5,3 +5,9 @@ It's a zone which anyone can talk together.
   Your message will be mixed in other massages. 
 
 **Release Emotions Stuck In Your Body By Writing A Message!**
+
+## Practicing the skills
+
+> * JSON Server
+> * React Hook Form
+> * Sass
