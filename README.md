@@ -11,3 +11,4 @@ It's a zone which anyone can talk together.
 > * JSON Server
 > * React Hook Form
 > * Sass
+> * Normalize.css in CRA
