@@ -1,4 +1,3 @@
-import SendIcon from '../svgs/send.svg'
 import SvgSend from '../components/send-button'
 
 export default function WritingBarSendButton (props) {
