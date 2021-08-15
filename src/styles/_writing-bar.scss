@@ -11,7 +11,7 @@
 
 .writing-bar__input {
   @include size(100%, auto);
-  @include input(100px,20px);
+  @include input(100px,0, 20px, 70px, 20px, 20px);
   @include font_f-w-s($font-primary, 0, 16px);
   @include text($tc-primary, 10px);
   background-color: transparent;
