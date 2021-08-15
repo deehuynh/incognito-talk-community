@@ -1,4 +1,14 @@
+// CSS Reset
 @import-normalize;
+
+// Variable
+$bgc-primary: #202020;
+
+// Mixin package
+@import 'mixin';
+
+// Partials
+@import 'writing-bar';
 
 body {
   margin: 0;
@@ -7,4 +17,10 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+.app {
+  @include size(100%, 100vh);
+  background-color: $bgc-primary;
+  position: relative;
 }
