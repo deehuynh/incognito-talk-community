@@ -139,3 +139,42 @@
     margin: $margin;
   }
 }
+
+//8. Styling the input tag
+@mixin input (
+  //Border-radius
+  $radius: 0,
+  // padding
+  $pd-all: 0, 
+  $pd-top: $pd-all, 
+  $pd-right: $pd-all,
+  $pd-bottom: $pd-all, 
+  $pd-left: $pd-all
+) {
+  outline: none;
+  border: none;
+  @if $radius != 0 {
+    border-radius: $radius;
+  }
+  padding: {
+    top: $pd-top;
+    right: $pd-right;
+    bottom: $pd-bottom;
+    left: $pd-left;
+  }
+}
+
+//9. Text
+@mixin text (
+  $color: white,
+  $indent: 0,
+  $align: 0, 
+) {
+  color: $color;
+  @if $indent != 0 {
+    text-indent: $indent;
+  }
+  @if $align != 0 {
+    text-align: $align;
+  }
+}

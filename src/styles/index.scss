@@ -1,8 +1,17 @@
-// CSS Reset
+/* CSS Reset */
 @import-normalize;
 
-// Variable
+/* Variable */
+// Background Color
 $bgc-primary: #202020;
+//Text Color
+$tc-primary: white;
+$tc-input: #303030;
+//Font Primary
+$font-primary: 'Roboto';
+
+/* Font */
+@import 'font';
 
 // Mixin package
 @import 'mixin';

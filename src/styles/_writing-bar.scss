@@ -1,5 +1,17 @@
 .writing-bar {
+  @include flex(0,center, center);
   @include size(100%, 20%);
   @include absolute(0,0,0px);
   border-top: 1px solid #404040;
+}
+
+.writing-bar__container {
+  @include size(50%, auto);
+}
+
+.writing-bar__input {
+  @include size(100%, auto);
+  @include input(100px,20px);
+  @include font_f-w-s($font-primary, 0, 16px);
+  @include text($tc-input, 10px);
 }

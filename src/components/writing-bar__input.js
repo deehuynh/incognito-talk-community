@@ -4,7 +4,7 @@ function WritingBarInput (props) {
       className="writing-bar__input"
       type='text' name='message'
       placeholder='Release your emotion via a message...'
-      value=''
+      defaultValue=''
     />
   )
 }
