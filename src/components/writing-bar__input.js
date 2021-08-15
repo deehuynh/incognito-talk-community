@@ -5,6 +5,7 @@ function WritingBarInput (props) {
       type='text' name='message'
       placeholder='Release your emotion via a message...'
       defaultValue=''
+      spellCheck="false"
     />
   )
 }
