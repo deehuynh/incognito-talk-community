@@ -23,4 +23,8 @@
   @include size(30px);
   @include absolute(0px, 30px, 0px, 0, auto);
   color: white;
+  &:hover {
+    cursor: pointer;
+    color: $btnc-hover;
+  }
 }
